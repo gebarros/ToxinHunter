@@ -27,8 +27,9 @@ out_dir_name = '{}_out_dir'.format(args.id)
 if not os.path.exists(out_dir_name):
     out_dir_name = '{}_out_dir'.format(args.id)
     th.create_folder(out_dir_name)
-    th.create_folder(os.path.join(out_dir_name,'tblastn_database'))
-    th.create_folder(os.path.join(out_dir_name,'toxin_database'))
+
+th.create_folder(os.path.join(out_dir_name,'tblastn_database'))
+th.create_folder(os.path.join(out_dir_name,'toxin_database'))
 
 # Getting paths
 path_tblastn_db = os.path.join(out_dir_name,'tblastn_database')
