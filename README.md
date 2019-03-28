@@ -13,6 +13,7 @@ This repository contains a bioinformatics pipeline to identify potential snake v
 ### Installation using miniconda:
 
   1- [Install miniconda](https://conda.io/miniconda.html)
+
   2 - Create conda env using Python3:
   ```
    conda create -n <env_name> python=3
