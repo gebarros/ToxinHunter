@@ -1,5 +1,7 @@
 # Important:
-##### Header of toxin dataset fasta file should be formated as follow:
+We provided a Toxin Database with the pipeline (ToxinDatabase_ToxinHunter.fasta), which contain 264 selected complete sequences from the public database in order to facilitate the analysis. But you can use your own database following the specifications:
+
+##### Header of toxin database fasta file should be formated as follow:
 - ids/name separated by '_'
 - the last name should be the toxin code
 - accepted toxin codes:
